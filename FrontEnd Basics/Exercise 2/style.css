@@ -1,0 +1,37 @@
+.outer-parent{
+    display: flex;
+    background-color: #ebecef;
+    flex-direction: column;
+}
+
+.bottom-child, .top-child{
+    height:100px;
+}
+
+.name-child input, .email-child input, .phone-child input, .message-child textarea{
+    width:100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: top;
+}
+
+.contact-child{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size:x-large;
+}
+
+.responsive-child, .submit-child{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #5d666b;
+}
+
+.submit-child input{
+    background-color: #7ed532;
+    color: white;
+    padding: 15px 60px;
+    border-radius: 20px;
+}
