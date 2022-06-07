@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts - Clean Blog</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <style>
+
+        .top-header{
+          background-image: linear-gradient(rgba(0, 0, 0, 0.427),rgba(0, 0, 0, 0.5)) ,url('img/bg-post.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #heading-text{text-align: center;}
+
+        #right-navbar{
+            font-size: small;
+            color:#fff;
+        }
+        
+        #mid-text{font-size: x-large;}
+
+        .all-posts{
+            max-width: 700px;
+            max-height: 100px;
+            margin: auto;
+        }
+
+        #links{
+            color:black;
+            text-decoration: none;
+        }
+
+        #links:hover{color:#4ea6b5;}
+
+        #btn{
+            border: none;
+            background-color:#0d7290;
+            padding: 15px 23px;
+            color: #fff;
+            float:right;
+        }
+
+        .social-links{
+            max-width: 700px;
+            max-height: 100px;
+            margin: auto;
+        }
+
+    </style> 
+
+    <div class="top-header">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar">
+            <div class="container">
+        
+            <!-- Collapse -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+                <!-- Left -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" style="font-size: x-large;">
+                            <strong>Clean Blog</strong>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Right -->
+                <div id="right-navbar">
+                    
+                    <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html" target="_blank"><strong>HOME</strong>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html" target="_blank">
+                            <strong>ABOUT</strong></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            <strong>POSTS</strong>
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank">
+                            <strong>CONTACT</strong></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="heading-text">
+            <br><br><br><br><br><br>
+            <h1 id="main-heading" style="font-size: 5rem; color:#fff;"><strong>Posts</strong></h1>
+            <br><br><br><br><br><br><br><br>
+        </div>
+    </div>
+
+    <br><br>
+    <!-- Posts -->
+    <div class="all-posts">
+        <!-- 1st Post -->
+        <article>
+            <a id="links" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
+                <h1><strong>Man must explore, and this is exploration at its greatest</strong></h1>
+                <p id="mid-text">Problems look mighty small from 150 miles up</p>
+            </a>
+            <p>Posted by Start Bootstrap on January 31,2020. 4 mins read</p>
+            <hr/>
+        </article>
+        <br>
+
+        <!-- 2nd Post -->
+        <article>
+            <a id="links" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
+                <h1><strong>I believe every human has a finite number of heartbreaks. I don't intend to waste any of mine.</strong></h1>
+                <p id="mid-text">Never in all their history have men been able truly to conceive of the world...</p>
+            </a>
+            <p>Posted by Start Bootstrap on January 31,2020. 4 mins read</p>
+            <hr/>
+        </article>
+        <br>
+
+        <!-- 3rd Post -->
+        <article>
+            <a id="links" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
+                <h1><strong>Science has not yet mastered prophecy</strong></h1>
+                <p id="mid-text">We predict too much for the next year and yet far too little for the next ten.</p>
+            </a>
+            <p>Posted by Start Bootstrap on January 31,2020. 4 mins read</p>
+            <hr/>
+        </article>
+        <br>
+
+        <!-- 4th Post -->
+        <article>
+            <a id="links" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
+                <h1><strong>Failure is not an option</strong></h1>
+                <p id="mid-text">Many say exploration is part of our destiny, but it's actually our duty to future generations.</p>
+            </a>
+            <p>Posted by Start Bootstrap on January 31,2020. 4 mins read</p>
+            <hr/>
+        </article>
+        <br>
+
+        <!-- 5th Post -->
+        <article>
+            <a id="links" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
+                <h1><strong>The dreams of yesterday are the hopes of today and the reality of tomorrow.</strong></h1>
+                <p id="mid-text">Never in all their history have men been able truly to conceive of the world...</p>
+            </a>
+            <p>Posted by Start Bootstrap on January 31,2020. 4 mins read</p>
+            <hr/>
+        </article>
+        <br>
+
+        <!-- Posts Button -->
+        <a href="https://mdbootstrap.com/material-design-for-bootstrap/" id="btn"><strong>OLDER POSTS -></strong></a> 
+    </div>
+    
+</body>
+</html>
